@@ -5,7 +5,7 @@
 - Azure Function App (BlobTrigger & QueueTrigger Function 从storage Account中读取数据后推送至Azure Log Analytics)
 - spring-boot-redisson-failover-sdk (客户端同时接入两个Redis集群时，使用此jar包进行自动故障转移)
 
-## 常见的应用问题
+## 常见的Mysql/Redis应用开发的问题
 
 
 - Connection Management
@@ -37,7 +37,7 @@
 	- Disaster Recovery 
 
 
-## 积累的能力
+## 目前积累的优化能力
 
 - Reliability
 	- Connection Pool Management
