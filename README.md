@@ -1,4 +1,4 @@
-# 基于Azure Mysql和Redis的应用经验积累
+# 基于Azure Mysql和Redis的应用开发经验积累
 
 ## 资产积累
 - Application Resilience Enhancement.pptx (基于MySql/Redis的现代化应用的Tech IP)
