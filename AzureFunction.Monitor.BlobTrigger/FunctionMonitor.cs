@@ -7,9 +7,9 @@ using Newtonsoft.Json;
 
 namespace SPDB.AzureFunction.MallMonitor.BlobTrigger
 {
-    public static class FunctionMallMonitor
+    public static class FunctionMonitor
     {
-        [FunctionName("FunctionMallMonitor")]
+        [FunctionName("FunctionMonitor")]
         public static void Run([BlobTrigger("metrics/{name}", Connection = "MonitorBlobConnection")] Stream myBlob, string name, ILogger log)
         {
             log.LogInformation($"C# Blob trigger function Processed blob\n Name:{name} \n Size: {myBlob.Length} Bytes");
