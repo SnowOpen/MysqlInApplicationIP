@@ -3,6 +3,7 @@
 ## 资产积累
 - Application Resilience Enhancement.pptx (基于MySql/Redis的现代化应用的Tech IP)
 - Azure Function App (BlobTrigger & QueueTrigger Function 从storage Account中读取数据后推送至Azure Log Analytics)
+- mysql-async-performance-test (使用gatling对mysql异步复制进行性能测试)
 - spring-boot-redisson-failover-sdk (客户端同时接入两个Redis集群时，使用此jar包进行自动故障转移)
 
 ## 常见的Mysql/Redis应用开发的问题
